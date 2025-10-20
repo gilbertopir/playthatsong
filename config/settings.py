@@ -125,19 +125,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#temp
-import os
-from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
 
-# STATIC FILES
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']  # for development
-STATIC_ROOT = BASE_DIR / 'staticfiles'    # for production
-
-if not DEBUG:
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 
