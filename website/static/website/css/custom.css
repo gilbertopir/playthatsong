@@ -1,0 +1,90 @@
+/* Consistent base text size and spacing */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Heading styles only inside scroll sections */
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* Optional: tweak display-4 size if used */
+.display-4 {
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+/* nav bar settings */
+.lead {
+  font-size: 1.1rem;       
+  font-weight: 200;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.navbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #1b1b1b;  
+}
+
+.navbar-nav .nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nav-link i {
+  font-size: 1rem;
+  color: rgb(173, 64, 131); 
+}
+
+/* Sections Custom Styles */
+#home {
+  min-height: 50vh;
+  background-color: #f8f9fa;
+  color: #111;
+}
+
+#services {
+  min-height: 50vh;
+  background-color: #272727;
+  color: #ffffff;
+}
+
+#thedj {
+  min-height: 50vh;
+  background-color: #e6e6e6; /* light grey tone */
+  color: #111;
+}
+
+#reviews {
+  min-height: 50vh;
+  background-color: #f8f9fa; /* same as #home for subtle variation */
+  color: #111;
+}
+
+#contact {
+  min-height: 50vh;
+  background-color: #dce6f1; /* soft blue-grey, tweak if needed */
+  color: #111;
+}
